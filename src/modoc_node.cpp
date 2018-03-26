@@ -1,9 +1,11 @@
 /*
  * =====================================================================================
  *
- *       Filename:  offb_node.cpp
+ *       Filename:  modoc_node.cpp
  *
- *    Description:  A simple thing to make look difficult
+ *    Description:  A simple thing to make look difficult.  The MODOC (Mavros
+ *    Object Designed Only for Communication) provides the offboard guidance
+ *    logic for the odroid
  *
  *        Version:  1.0
  *        Created:  03/21/2018 02:20:56 PM
@@ -36,7 +38,7 @@
  */
 
 /**
- * @file offb_node.cpp
+ * @file modoc_node.cpp
  * @brief Offboard control example node, written with MAVROS version 0.19.x, PX4 Pro Flight
  * Stack and tested in Gazebo SITL
  */
