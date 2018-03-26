@@ -15,5 +15,5 @@
         <arg name="fcu_protocol" value="$(arg fcu_protocol)"/>
         <arg name="respawn_mavros" value="$(arg respawn_mavros)"/>
     </include>
-    <node name="modoc_node" pkg="modoc" type="modoc" output="screen"/>
+    <node name="modoc_node" pkg="modoc" type="modoc_node" output="screen"/>
 </launch>
